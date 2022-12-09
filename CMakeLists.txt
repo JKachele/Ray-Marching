@@ -7,6 +7,7 @@ add_executable(Ray_Marching external/glad/src/glad.c src/main.cpp)
 
 include_directories(include)
 include_directories(include)
+include_directories(external)
 include_directories(external/glad/include)
 include_directories(external/glfw/include)
 include_directories(external/glm)
